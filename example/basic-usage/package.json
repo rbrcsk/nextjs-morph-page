@@ -1,0 +1,24 @@
+{
+	"name": "basic-usage",
+	"description": "Basic morphing example",
+	"author": {
+		"name": "Rob Evans - Irrelon Software Limited",
+		"email": "rob@irrelon.com"
+	},
+	"scripts": {
+		"dev": "NODE_ENV=dev node $NODE_DEBUG_OPTION server.js",
+		"build": "next build",
+		"eslint": "eslint components/** pages/** *.js",
+		"eslint-fix": "eslint components/** pages/** *.js --fix",
+		"start": "NODE_ENV=production node server.js"
+	},
+	"dependencies": {
+		"compression": "^1.7.3",
+		"cookie-parser": "^1.4.3",
+		"express": "^4.16.4",
+		"next": "^7.0.2",
+		"nextjs-morph-page": "^2.0.2",
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3"
+	}
+}
